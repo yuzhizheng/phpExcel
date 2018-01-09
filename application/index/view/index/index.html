@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+<div><label>sql导出成Excel</label><a href="{:url('Index/excel')}">导出</a></div>
+<div>
+    <label style="font-size: 24px">php meail 的发送</label>
+</div>
+
+
+
+<form action="{:url('Index/reg')}" method="post">
+    <label>邮箱：</label>
+    <input type="email" name="email" value=""/><br/>
+    <label>姓名：</label>
+    <input type="text" name="username" value=""/><br/>
+    <input type="submit" name="sub" value="发送"/>
+</form>
+</body>
+</html>
